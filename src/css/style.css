@@ -45,4 +45,23 @@ img {
   padding-inline: 6%;
 }
 
+#header {
+  width: 100%;
+  height: 8rem;
+}
+#header .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .container .logo {
+  max-width: 7rem;
+}
+#header .container #nav .menu {
+  display: flex;
+  gap: 5rem;
+}
+
 /*# sourceMappingURL=style.css.map */
